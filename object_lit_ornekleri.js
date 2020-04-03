@@ -52,6 +52,18 @@ var aracBilgisi = {
     ]
 
 }
+// console.log(aracBilgisi);
+// console.log(aracBilgisi.id);
+// console.log(aracBilgisi.model);
+// console.log(aracBilgisi.servisKayit);
+// console.log(aracBilgisi.servisKayit[0]);
+// console.log(aracBilgisi.servisKayit[0].servisDetay);
+// console.log(aracBilgisi.servisKayit[0].servisDetay[1]);
+// console.log(aracBilgisi.servisKayit[0].servisDetay[0].id);
+// console.log(aracBilgisi.servisKayit[0].servisDetay[0].islem);
+// console.log(aracBilgisi.servisKayit[0].servisDetay[0].ücret);
+
+
 /**
                        *  Burada bireden çok araç için işlemler yaptık
  */
@@ -131,3 +143,18 @@ var aracBilgileri = [{
         }
     ]
 }]
+console.log(aracBilgileri);
+console.log(aracBilgileri[0]);
+console.log(aracBilgileri[0].id);
+console.log(aracBilgileri[0].model);
+console.log(aracBilgileri[0].yil);
+console.log(aracBilgileri[0].servisKayit);
+console.log(aracBilgileri[0].servisKayit[0]);
+console.log(aracBilgileri[0].servisKayit[0].id);
+console.log(aracBilgileri[0].servisKayit[0].km);
+console.log(aracBilgileri[0].servisKayit[0].tarih);
+console.log(aracBilgileri[0].servisKayit[0].ücret);
+console.log(aracBilgileri[0].servisKayit[0].servisDetay[1]);
+console.log(aracBilgileri[0].servisKayit[0].servisDetay[1].id);
+console.log(aracBilgileri[0].servisKayit[0].servisDetay[1].islem);
+console.log(aracBilgileri[0].servisKayit[0].servisDetay[1].ücret);
